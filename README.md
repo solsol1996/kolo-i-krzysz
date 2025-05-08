@@ -21,7 +21,7 @@
 
 #### Funkcja resetGame() resetuje stan gry, usuwając wszystkie symbole i pozwalając na ponowną rozgrywkę.
 
-* Powiadomienia:
+### Powiadomienia:
 
 #### Funkcja związana z przyciskiem notifyButton umożliwia wyświetlanie powiadomienia, które znika po kilku sekundach.
 
