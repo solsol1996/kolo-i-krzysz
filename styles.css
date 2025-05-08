@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(52, 219, 224);
+    text-align: center;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    width: 310px;
+    position: relative;
+    left: 800px;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.line {
+    width: 314px;
+    height: 5px;
+    position: absolute;
+    background-color: red;
+    transform-origin: 0 0;
+}
+.notification { 
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 900px;
+    right: 10px;
+    border-radius: 5px;
+}
+#notifyButton {
+    font-size: larger;
+    border: none;
+    border-radius: 10px;
+    width: 70px;
+    height: 40px;
+    background-color: cadetblue;
+    color: white;
+}
+
+#notifyButton:hover {
+    cursor: pointer;
+    background-color: rgb(34, 109, 105)
+}
+
+#notifyButton:active {
+    background-color: cadetblue;
+}
+
+#resetBtn {
+    font-size: larger;
+    border: none;
+    border-radius: 10px;
+    width: 70px;
+    height: 40px;
+    background-color: cadetblue;
+    color: white;
+}
+
+#resetBtn:hover {
+    cursor: pointer;
+    background-color: rgb(34, 109, 105)
+}
+
+#resetBtn:active {
+    background-color: cadetblue;
+}
+#message {
+    font-size: 170%;
+}
