@@ -5,23 +5,23 @@
 
 # Co robi ten kod?
 
-###* Kliknięcia na komórkach:
+*### Kliknięcia na komórkach:
 
 #### Funkcja handleCellClick() obsługuje kliknięcia na komórkach, umożliwiając graczom wstawienie ich symboli ("X" lub "O").
 
-###* Sprawdzanie zwycięzcy:
+*### Sprawdzanie zwycięzcy:
 
 #### Funkcja checkWin() sprawdza, czy któryś z graczy wygrał (sprawdzanie linii zwycięstwa).
 
-###* Rysowanie linii zwycięstwa:
+*### Rysowanie linii zwycięstwa:
 
 #### Funkcja drawWinningLine() rysuje linię przez zwycięską kombinację komórek.
 
-###* Resetowanie gry:
+*### Resetowanie gry:
 
 #### Funkcja resetGame() resetuje stan gry, usuwając wszystkie symbole i pozwalając na ponowną rozgrywkę.
 
-###* Powiadomienia:
+*### Powiadomienia:
 
 #### Funkcja związana z przyciskiem notifyButton umożliwia wyświetlanie powiadomienia, które znika po kilku sekundach.
 
